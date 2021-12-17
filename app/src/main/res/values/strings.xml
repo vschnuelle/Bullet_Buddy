@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Bullet Buddy</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="to_do_tab">To Do List</string>
+    <string name="monthly_goals">Monthly Goals</string>
+    <string name="mood_tracker_tab">Mood Tracker</string>
+    <string name="habit_tab">Habit Tracker</string>
+    <string name="home_tab">Home</string>
+    <string name="to_do_title">To Do List</string>
+    <string name="new_errand">Add</string>
+    <string name="errandList_FragmentTag">Errand List</string>
+</resources>

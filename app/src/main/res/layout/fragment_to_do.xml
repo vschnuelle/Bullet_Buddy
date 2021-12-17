@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/champagne"
+    tools:context=".ToDoFragment">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="450dp"
+        android:layout_height="171dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/appName3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/chicle"
+            android:gravity="center"
+            android:text="@string/app_name"
+            android:textAllCaps="false"
+            android:textColor="@color/brown"
+            android:textSize="48sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/toDoTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/chicle"
+            android:gravity="center"
+            android:text="@string/to_do_title"
+            android:textColor="@color/dark_tan"
+            android:textSize="48sp" />
+
+        <androidx.fragment.app.FragmentContainerView
+            android:id="@+id/fragmentContainerView2"
+            android:name="com.example.bulletbuddy.ErrandListFragment"
+            android:onClick="addErrand"
+            android:layout_width="match_parent"
+            android:layout_height="370dp" />
+
+    </LinearLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/errandName_InputLayout"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:scrollbarStyle="insideInset"
+        android:textColorHint="@color/brown"
+        app:boxBackgroundColor="@color/white"
+        app:hintAnimationEnabled="true"
+        app:layout_constraintBottom_toTopOf="@+id/addErrandButton"
+        app:layout_constraintEnd_toEndOf="@+id/addErrandButton"
+        app:layout_constraintStart_toStartOf="@+id/addErrandButton">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/nameEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:hint="What do you need to do today?~"
+            android:imeOptions="actionDone"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:textColorHint="@color/sage" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/addErrandButton"
+        style="@style/Widget.MaterialComponents.Button"
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@color/dark_sage"
+        android:gravity="center"
+        android:text="@string/new_errand"
+        android:textColor="@color/white"
+        app:cornerRadius="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        app:layout_constraintVertical_bias="0.905" />
+</androidx.constraintlayout.widget.ConstraintLayout>

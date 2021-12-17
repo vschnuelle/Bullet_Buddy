@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/veron.sc9435/AndroidStudioProjects/BulletBuddy/app/src/main/res/layout/activity_main.xml" value="0.1411764705882353" />
+        <entry key="..\:/Users/veron.sc9435/AndroidStudioProjects/BulletBuddy/app/src/main/res/layout/activity_main_tabbed.xml" value="0.1" />
+        <entry key="..\:/Users/veron.sc9435/AndroidStudioProjects/BulletBuddy/app/src/main/res/layout/fragment_errand_list.xml" value="0.1" />
+        <entry key="..\:/Users/veron.sc9435/AndroidStudioProjects/BulletBuddy/app/src/main/res/layout/fragment_errand_list_list.xml" value="0.1" />
+        <entry key="..\:/Users/veron.sc9435/AndroidStudioProjects/BulletBuddy/app/src/main/res/layout/fragment_habit_tracker.xml" value="0.1" />
+        <entry key="..\:/Users/veron.sc9435/AndroidStudioProjects/BulletBuddy/app/src/main/res/layout/fragment_home.xml" value="0.1" />
+        <entry key="..\:/Users/veron.sc9435/AndroidStudioProjects/BulletBuddy/app/src/main/res/layout/fragment_monthly_goals.xml" value="0.20878623188405798" />
+        <entry key="..\:/Users/veron.sc9435/AndroidStudioProjects/BulletBuddy/app/src/main/res/layout/fragment_to_do.xml" value="0.25" />
+        <entry key="..\:/Users/veron.sc9435/AndroidStudioProjects/BulletBuddy/app/src/main/res/layout/fragment_to_do_items.xml" value="0.1" />
+        <entry key="..\:/Users/veron.sc9435/AndroidStudioProjects/BulletBuddy/app/src/main/res/layout/fragment_to_do_items_list.xml" value="0.25" />
+        <entry key="..\:/Users/veron.sc9435/AndroidStudioProjects/BulletBuddy/app/src/main/res/layout/list_items_fragment.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
